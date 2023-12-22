@@ -7,7 +7,7 @@ Let's continue our acquaintance with dton.io and data collection on TON, today w
 2) Let’s count how many NFTs they have in the selected collection
 3) Let’s build a diagram to visually understand how many shares are owned by the top 10 owners of the collection
 
-![Group 192](https://gist.github.com/assets/18370291/a933bffb-66a0-4e0b-8994-ea33bb0e33c4)
+![nftstart](./img/nftownersstart.jpg)
 
 ## Checking the contract address
 
@@ -192,7 +192,7 @@ plt.show()
 
 Result:
 
-![image](https://gist.github.com/assets/18370291/d8dc6795-b3e5-474a-8059-f140dc2afddb)
+![nftstart](./img/nftholdersresult.png)
 
 ## Conclusion
 
