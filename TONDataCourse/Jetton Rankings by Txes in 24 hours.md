@@ -68,8 +68,7 @@ Information about the number of tokens owned by each user is stored in smart con
 
 After the initial familiarization with smart contracts, you need to pay attention to op codes - this is the code that displays what the smart contract should do.
 
-![unnamed4](https://gist.github.com/assets/18370291/250be25c-0c22-4485-8ff9-0b376b617a8c)
-![unnamed1](https://gist.github.com/assets/18370291/95b42be2-b313-41b3-9acd-85a64d0734be)
+![opcodes](./img/opcodes.png)
 
 After a quick look at the op codes, you need to identify those that suit your task and draw the process. Let's look at the process:
 
@@ -83,7 +82,7 @@ After a quick look at the op codes, you need to identify those that suit your ta
 
 After this, for convenience, we will draw the process of sending Jettons:
 
-![unnamed3](https://gist.github.com/assets/18370291/58e64f33-23f7-4d60-b9c4-a395770394a4)
+![jetshema](./img/jetshema.png)
 
 Judging by this scheme, we need internal transfer; it is messages with internal transfer that will allow us to collect the sending of Jettons from wallet to wallet.
 
@@ -123,8 +122,7 @@ For our goal - counting the number of Jetton transactions, there is a convenient
 
 In this case, we can take op_code directly from the standard to convert it from bytes to 32-integer, we will use this site: https://cryptii.com/pipes/integer-encoder
 
-
-По итогу получим:
+So:
 
 ```python
 endpoint = 'https://dton.io/graphql/'
@@ -166,7 +164,7 @@ jettons_list = resp.json()
 
 jettons_list[0]
 ```
-![unnamed2](https://gist.github.com/assets/18370291/732232e3-2d55-4f73-b566-76e13d121db6)
+![jetres](./img/jetres.png)
 
 It is important to note that this is an open source list and there are errors in it, for example, sometimes addresses are stored in different formats. Therefore, when constructing the next query, we will need to clean out the unnecessary.
 
@@ -215,7 +213,7 @@ https://colab.research.google.com/drive/1h6fFy2OaTntlUXNKJLaVztuOGH-A_NIg?usp=sh
 
 The result is something like this:
 
-
+![result](./img/result.png)
 
 I note that this is a training task; it is quite difficult to rank Jettons by transactions applicable to real tasks, since many Jettons increase the volume of transactions on the DEX and such transactions need to be cleaned out.
 
