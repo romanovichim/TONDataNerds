@@ -1,6 +1,6 @@
 # Looking for scam tokens using bubble charts in TON blockchain || Top Jetton holders
 
-![обложка eng](https://gist.github.com/assets/18370291/ee492ccb-4a0a-4329-829a-8900afaec54e)
+![engscamsstart](./img/scamstart.png)
 
 Looking for scam tokens using bubble charts in TON blockchain
 
@@ -183,13 +183,13 @@ Of course, these are not all possible combinations of wallets and their owners, 
 
 After enrichment, we will see that a small share of the token is owned by the MEXC exchange:
 
-![mexc](https://gist.github.com/assets/18370291/a6650249-494c-427e-9759-b005ed9be1aa)
+![mexc](./img/mexc.png)
 
 ## Bubble chart
 
 All that remains is to build a diagram, prepare random colors (code below in the link) and get:
 
-![bubblechartend](https://gist.github.com/assets/18370291/27761792-968c-46a4-8283-37d773f584d6)
+![bubblechartend](./img/bubblechartend.png)
 
 ## But can scammers use multiple wallets?
 
